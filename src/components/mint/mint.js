@@ -75,6 +75,7 @@ function Mint() {
         // const {mintNum} = this.state;
         if (mintNum <= 0) return;
         setMintNum(mintNum - 1)
+        
     }
     return (
         <div className='mint-control' id='mint'>
