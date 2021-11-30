@@ -1,0 +1,16 @@
+body {
+    margin: 0;
+    font-family: coder;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+  }
+
+  @font-face {
+    font-family: coder;
+    src: url(./styles/NanumPenScript-Regular.ttf);
+  }
+  
+  code {
+    font-family: coder;
+  }
+  
