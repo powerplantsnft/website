@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/static/css/main.9d18b9a4.chunk.css",
+    "main.css": "/static/css/main.4cf16eb3.chunk.css",
     "main.js": "/static/js/main.46a05e95.chunk.js",
     "main.js.map": "/static/js/main.46a05e95.chunk.js.map",
     "runtime-main.js": "/static/js/runtime-main.0c258aa1.js",
@@ -12,12 +12,11 @@
     "static/js/3.ecdd5785.chunk.js.map": "/static/js/3.ecdd5785.chunk.js.map",
     "index.html": "/index.html",
     "static/css/2.d8cb5cde.chunk.css.map": "/static/css/2.d8cb5cde.chunk.css.map",
-    "static/css/main.9d18b9a4.chunk.css.map": "/static/css/main.9d18b9a4.chunk.css.map",
+    "static/css/main.4cf16eb3.chunk.css.map": "/static/css/main.4cf16eb3.chunk.css.map",
     "static/js/2.e0801336.chunk.js.LICENSE.txt": "/static/js/2.e0801336.chunk.js.LICENSE.txt",
     "static/media/about.css": "/static/media/ArchivoNarrow-VariableFont_wght.1a8c2c65.ttf",
     "static/media/CenterPic.6eabdc78.png": "/static/media/CenterPic.6eabdc78.png",
     "static/media/join-community.css": "/static/media/DickPix.be6bd296.png",
-    "static/media/index.css": "/static/media/NanumPenScript-Regular.9dbef110.ttf",
     "static/media/about.73d1c470.gif": "/static/media/about.73d1c470.gif",
     "static/media/boy1.f8b76f17.png": "/static/media/boy1.f8b76f17.png",
     "static/media/dicklogo.9f1ffd25.png": "/static/media/dicklogo.9f1ffd25.png",
@@ -32,7 +31,7 @@
     "static/js/runtime-main.0c258aa1.js",
     "static/css/2.d8cb5cde.chunk.css",
     "static/js/2.e0801336.chunk.js",
-    "static/css/main.9d18b9a4.chunk.css",
+    "static/css/main.4cf16eb3.chunk.css",
     "static/js/main.46a05e95.chunk.js"
   ]
 }
