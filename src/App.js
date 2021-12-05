@@ -12,8 +12,12 @@ import Mint from './components/mint/mint';
 import About from './components/about/about';
 import Meet from './components/meet/meet';
 import FounderThing from './components/founderthing/founderthing';
+import Utility from './components/utility/utility';
+import State from './components/state/state';
 import il from './assets/CenterPic.png';
+import Partners from './components/partners/footer'
 import './assets/newStyle.css';
+import './assets/mainstyle.css'
 
 function App() {
   return (
@@ -21,14 +25,17 @@ function App() {
       <Header />
       {/* <img className="thePicture" src={il}/> */}
       <About />
+      <Utility className="utilitysec"/>
       <Meet />
-      
+
       <Mint />
       {/* <TopItems /> */}
       <RoadMap />
+      <State />
       {/* <FounderThing /> */}
       <Team />
       {/* <JoinCommunity /> */}
+      <Partners />
       <Footer />
     </div>
   );

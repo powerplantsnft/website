@@ -5,7 +5,7 @@
 }
 
 .mint-control {
-    background-color: #ffffff;
+    background-color: #141416;
     padding-top: 60px;
     padding-bottom: 30px;
     /* border-bottom: 2px solid black;
@@ -22,7 +22,7 @@
 
 .mint-description header {
     font-size: 30px;
-    color: black;
+    color: white;
     font-weight: 900;
     font-style: italic;
     line-height: 50px;
@@ -30,11 +30,11 @@
 }
 
 .mint-description header span {
-    color: rgb(0, 255, 13);
+    color: white;
 }
 
 .mint-description p {
-    color: rgb(0, 0, 0);
+    color: white;
     margin-top: 20px;
     margin-bottom: 20px;
     font-weight: 900;
@@ -61,7 +61,7 @@
   }
 
 .ybutton {
-    background-color: #ffffff;
+    background-color: #6FBD25;
     color: black;
     padding-left: 20px;
     padding-right: 20px;

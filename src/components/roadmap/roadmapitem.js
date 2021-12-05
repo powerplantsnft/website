@@ -27,7 +27,7 @@ class RoadMapItem extends React.Component {
                     <BsPlusLg />
                 </div>
                 <Collapse in={this.state.open}>
-                    <div id="example" className='collapse-content'>
+                    <div id="example" className='collapse-content display-linebreak'>
                         {this.props.content}
                     </div>
                 </Collapse>

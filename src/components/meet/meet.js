@@ -19,8 +19,8 @@ class Meet extends React.Component {
         return (
             <div className='meet-control'>
                 <Container>
-                    <header style={{ textAlign: "center" }}>
-                        THOUSANDS OF COMBINATIONS. <br /> <span>FIND YOUR PLANT!</span>
+                    <header style={{ textAlign: "center", color: "white"}}>
+                        <br /> <span style={{fontStyle: "normal"}}>Check out our assortment.</span>
                     </header>
                 </Container>
                 <InfiniteCarousel

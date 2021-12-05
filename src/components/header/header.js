@@ -2,6 +2,8 @@ import React from "react";
 
 import Logo from '../../assets/logo.jpg'
 import il from '../../assets/CenterPic.png'
+import il2 from '../../assets/Pink Caladium.webp'
+// import { Container, Row, Col } from "react-bootstrap";
 
 //import css
 import './header.css';
@@ -10,6 +12,8 @@ import {
     Container,
     Navbar,
     Nav,
+    Row,
+    Col
 } from 'react-bootstrap';
 
 
@@ -52,30 +56,36 @@ class Header extends React.Component {
                 <div className='header-control'>
                     <Navbar collapseOnSelect expand="lg">
                         <Container>
-                            <Navbar.Brand href="#home" style={{paddingTop: 10}}>
+                            <Navbar.Brand href="#home" style={{ paddingTop: 10 }}>
                                 <img src={il} width={289} height={115.1} alt='logo' />
                             </Navbar.Brand>
                             <Navbar.Toggle aria-controls="responsive-navbar-nav" />
                             <Navbar.Collapse id="responsive-navbar-nav">
                                 <Nav className="me-auto">
                                 </Nav>
-                                <Nav style={{backgroundColor: "black", borderRadius: 0, padding: "0 20px 0 20px"}}>
-                                    <Nav.Link className="bruh" style={{ fontWeight: 900, backgroundColor: "black", borderRadius: 30 }}
+                                <Nav style={{ borderRadius: 0, padding: "0 20px 0 20px" }}>
+                                    <Nav.Link className="bruh" style={{ fontWeight: 900}}
                                         onClick={onMintClick} >MINT</Nav.Link>
-                                    <Nav.Link className="bruh" style={{ fontWeight: 900, backgroundColor: "black", borderRadius: 30 }}
+                                    <Nav.Link className="bruh" style={{ fontWeight: 900}}
                                         onClick={onRoadClick}>ROADMAP</Nav.Link>
-                                    <Nav.Link className="bruh" style={{ fontWeight: 900, backgroundColor: "black", borderRadius: 30 }}
+                                    <Nav.Link className="bruh" style={{ fontWeight: 900}}
                                         onClick={onTeamClick} >TEAM</Nav.Link>
-                                    
+
                                     {/* onClick={() => window.location.replace('/#roadmap')} >ROADMAP</Nav.Link> */}
 
                                     {/* <Nav.Link className="bruh" style={{ fontWeight: 900, backgroundColor: "black", borderRadius: 30 }}
                                         onClick={onWhitelistClick} >WHITELIST</Nav.Link> */}
                                     {/* <Nav.Link> */}
 
-                                    <Nav.Link className="bruh" style={{ fontWeight: 900, backgroundColor: "black",borderRadius: 30  }}
+                                    <Nav.Link className="bruh" style={{ fontWeight: 900}}
                                         onClick={openSea}>OPENSEA</Nav.Link>
-                                        {/* <text style={{ width: 20 }}></text>
+                                        <text style={{width: 20}}></text>
+                                        <div>
+                       <a style={{textDecoration: "none", color:"white", paddingRight: 10}}target="_blank" rel="noopener noreferrer"href="https://instagram.com/"> <BsInstagram size={32} /></a>
+                       <a style={{textDecoration: "none", color:"white", paddingLeft: 10, paddingRight: 10}}target="_blank" rel="noopener noreferrer"href="https://twitter.com/"> <BsTwitter size={32} /></a>
+                       <a style={{textDecoration: "none", color:"white", paddingLeft: 10}}target="_blank" rel="noopener noreferrer"href="https://discord.gg"> <BsDiscord size={32} />   </a>     
+                    </div>
+                                    {/* <text style={{ width: 20 }}></text>
                                     <Nav.Link><a style={{ backgroundColor: "#32CD32", padding: 10.5, margin: 0,borderRadius: 30,textDecoration: "none", color: "white"}} target="_blank" rel="noopener noreferrer" href="https://instagram.com/dickpixnft"> <BsInstagram size={32} /></a></Nav.Link>
                                     <Nav.Link><a style={{ backgroundColor: "#32CD32", padding: 10.5, margin: 0,borderRadius: 30,textDecoration: "none", color: "white"}} target="_blank" rel="noopener noreferrer" href="https://twitter.com/thedickpixnft"> <BsTwitter size={32} /></a></Nav.Link>
                                     <Nav.Link><a style={{ backgroundColor: "#32CD32", padding: 10.5, margin: 0,borderRadius: 30,textDecoration: "none", color: "white"}} target="_blank" rel="noopener noreferrer" href="https://discord.gg/SgJyg5Wx/"> <BsDiscord size={32} />   </a></Nav.Link> */}
@@ -94,6 +104,26 @@ class Header extends React.Component {
                     </Navbar>
                     <div className='header-content'>
                         {/* <h1><img className="thePicture" src={il} /></h1> */}
+                        <Container>
+                            <Row>
+                                <Col md={6} xs={12} className='about-description' style={{textAlign: "center"}}>
+                                    <header>
+                                        <span style={{ color: "white", fontStyle: "normal" }}>The new generation of plants.<br /></span>
+                                        {/* <span style={{ color: "white", fontStyle: "normal" }}>No watering required.<br /></span> */}
+                                    </header>
+                                    <p style={{color: "white"}}>
+                                        No watering required.
+                                    </p>
+                                    <text className="xbutton" onClick={onMintClick}>MINT</text>
+
+                                    {/* <div><YButton text='COMING SOON' /></div> */}
+                                </Col>
+                                <Col md={6} xs={12} className='image-control'>
+                                    <img style={{ borderRadius: 0 }} src={il2} alt='about gif' />
+                                </Col>
+                            </Row>
+                        </Container>
+
                         <div className='header-content-buttons-container'>
                             {/* <YButton text='DISCORD' /> &nbsp;
                         <YButton text='TWITTER' /> */}

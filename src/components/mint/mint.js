@@ -85,38 +85,39 @@ function Mint() {
                         <img src={MintGif} alt='mint gif' />
                     </Col>
                     <Col md={6} xs={12} className='mint-description'>
-                        <header>MINT YOUR <text style={{ color: "#32CD32" }}>POWER PLANT</text>
+                        <header style={{fontStyle: "normal"}}>MINT YOUR <text style={{ color: "white" }}>POWER PLANT</text>
                         </header>
-                        <p style={{ textAlign: "center" }}>
+                        <text style={{ textAlign: "center", height: 10 }}>
 
-                            10000 images are original to the collection. 
+                            {/* 10000 images are original to the collection. 
                             They are all 1/1 and show original colors and leaf arangements.
                             <br/><br/>
-                            Show us your plants on
-                            <text style={{fontWeight: "bold"}}>
+                            Show us your plants on */}
+                            {/* <text style={{fontWeight: "bold"}}>
                                 <a style={{textDecoration: "none", color: "#32CD32", fontWeight: 900, fontSize: 20}}href="https://instagram.com/"> Instagram </a>
                             </text> 
                             and 
                             <text style={{fontWeight: "bold"}}>
                                 <a style={{textDecoration: "none", color: "#32CD32", fontWeight: 900, fontSize: 20}}href="https://twitter.com/"> Twitter!</a>
+                            </text> */}
                             </text>
-                            </p>
                         <div className='number-control'>
-                            <BsFileMinusFill color='#32CD32' size={40} onClick={() => minus_num()} />
-                            <span id="inputBox">{mintNum}</span>
-                            <BsFilePlusFill color='#32CD32' size={40} onClick={() => plus_num()} />
+                            <BsFileMinusFill color='white' size={40} onClick={() => minus_num()} />
+                            <span id="inputBox" style={{color: "white"}}>{mintNum}</span>
+                            <BsFilePlusFill color='white' size={40} onClick={() => plus_num()} />
                         </div>
-                        <p style={{marginTop: 0, marginBottom: 0}}>0.077 ETH + Gas</p>
+                        <p style={{marginTop: 0, marginBottom: 0}}>0.08 ETH + Gas</p>
                         {
                             blockchain.account === "" || blockchain.smartContract === null ?
                                 <div className="flex-column">
                                     <button className='ybutton'
                                         onClick={(e) => {
-                                            console.log("--------")
-                                            e.preventDefault();
-                                            dispatch(connect());
-                                            getData();
-                                        }}>CONNECT</button>
+                                            // console.log("--------")
+                                            // e.preventDefault();
+                                            // dispatch(connect());
+                                            // getData();
+                                            // ^ change the above to uncommented to use mint button
+                                        }}>COMING SOON</button>
                                     {blockchain.errorMsg !== "" ? (
                                         <div style={{ textAlign: "center", fontSize: 20, color: "white" }}>
                                             {blockchain.errorMsg}

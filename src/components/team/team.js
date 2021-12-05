@@ -51,7 +51,7 @@ class Team extends React.Component {
         return (
             <div className='team-control' id='team'>
                 <Container>
-                    <header><span>MEET OUR</span> <text style={{color: "#32CD32"}}>TEAM.</text></header>
+                    <header style={{fontStyle: "normal", color:"white"}}> Team Members </header>
                     <Row>
                         {
                             this.state.teams.map((item, index) => {

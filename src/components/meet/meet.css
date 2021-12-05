@@ -1,7 +1,7 @@
 .meet-control {
-    padding-top: 40px;
+    padding-top: 0px;
     padding-bottom: 60px;
-    background-color: #ffffff;
+    background-color: #141416;
     
 }
 
@@ -15,7 +15,7 @@
 }
 
 .meet-control header span {
-    color: #32CD32;
+    color: white;
 }
 
 .remaining {

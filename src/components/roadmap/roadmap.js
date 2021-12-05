@@ -15,45 +15,36 @@ class RoadMap extends React.Component {
         this.state = {
             roadmaps: [
                 {
-                    tag: 'Placeholder',
-                    title: 'Placeholder',
-                    content: 'Placeholder'
+                    tag: 'Phase 1',
+                    title: 'Inception',
+                    content: "-Website is launched \n -Social Media marketing campaigns are launched \n -Create partnerships with tree foundations"
                 },
                 {
-                    tag: 'Placeholder',
-                    title: 'Placeholder',
-                    content: 'Placeholder'
+                    tag: 'Phase 2',
+                    title: 'Community',
+                    content: "-Raffle giveaway once we reach 25,000 Discord Members\n-Merchandise is launched\n-Whitelist"
                 },
                 {
-                    tag: 'Placeholder',
-                    title: 'Placeholder',
-                    content: 'Placeholder'
+                    tag: 'Phase 3',
+                    title: 'Launch',
+                    content: '-NFTs are sold to the public\n-Unlockable content\n-Exclusive community group launched'
                 },
                 {
-                    tag: 'Placeholder',
-                    title: 'Placeholder',
-                    content: 'Placeholder'
+                    tag: 'Phase 4',
+                    title: 'Donation',
+                    content: '-Donation of 10% to charitable foundations\n -Contributions to DAOs \n-Trees are planted and matched'
                 },
                 {
-                    tag: 'Placeholder',
-                    title: 'Placeholder',
-                    content: 'Placeholder'
+                    tag: 'Phase 5',
+                    title: 'After Launch',
+                    content: '-$50,000 is pumped into the Power Plants Fund for ongoing developments and marketing campaigns\n-Rare owners get original art/seeds mailed to them\n-2% of secondary marketplace sales are donated\n-Raffles on social media platforms'
                 },
                 {
-                    tag: 'Placeholder',
-                    title: 'Placeholder',
-                    content: 'Placeholder'
+                    tag: 'Phase 6',
+                    title: 'Metaverse',
+                    content: '-The next phase...'
                 },
-                {
-                    tag: 'Placeholder',
-                    title: 'Placeholder',
-                    content: 'Placeholder'
-                },
-                {
-                    tag: 'Placeholder',
-                    title: 'Placeholder',
-                    content: 'Placeholder'
-                }
+                
             ]
         }
     }

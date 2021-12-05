@@ -1,6 +1,6 @@
 .header-control {
     /* background-image: url('../../assets/DickBackground.png'); */
-    background-color: #ffffff;
+    /* background-color: #ffffff; */
     /* this can be changed to header-back or dickbackground */
     display: flex;
     flex-direction: column;
@@ -9,26 +9,53 @@
     position: relative;
     padding-top: 20px;
     padding-bottom: 20px;
-    height: 120px;
+    height: 800px;
     background-repeat: repeat;
     background-size: cover;
     background-position: 50% 100%;
     font-family: newThing;
+    background-color: #141416;
 }
 @font-face {
     font-family: newThing;
     src: url(/src/components/header/ArchivoNarrow-VariableFont_wght.ttf);
   }
 
+.xbutton {
+    transition-duration: .3s;
+    background-color: green;
+    color: black;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    min-width: 80px;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    border-radius: 4px;
+    margin-top: 10px;
+    font-weight: 700;
+    border: solid 5px black;
+    border-radius: 20px;
+    font-family: newThing;
+}
+
+.xbutton:hover{
+    transition-duration: .3s;
+    color: white;
+    background-color: black;
+    border-color: white;
+}
+
 
 .header-control .navbar {
-    width: 80%;
+    width: 100%;
     /* background-image: linear-gradient(to bottom right, #7fff7f, white); */
     margin-top: 0px;
     padding-top: 0px;
-    border-bottom: 2px solid black;
     padding-bottom: 20px;
-    max-width: 1000px;
+    /* max-width: 1000px; */
     /* outline: 5px solid black; */
     /* box-shadow: 0 0 0 3px rgb(0, 0, 0); */
 }
@@ -109,8 +136,8 @@
 
 @media (min-width: 767px) {
     .header-control {
-        /* background-image: url('../../assets/DickBackground.png'); */
-        background-color: white;
+        background-image: url('../../assets/header-bg.webp');
+        /* background-color: white; */
         /* this can be changed to header-back or dickbackground */
         display: flex;
         flex-direction: column;
@@ -119,7 +146,7 @@
         position: relative;
         padding-top: 20px;
         padding-bottom: 20px;
-        height: 210px;
+        height: 100vh;
         background-repeat: repeat;
         background-position: 100% 100%;
     }

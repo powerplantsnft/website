@@ -1,14 +1,14 @@
 .roadmap-control header span {
-    color: #000000;
+    color: white;
     /* text-shadow: 1px 0 20px rgb(200 255 0 / 31%); */
     text-align: center;
-    color: #32cd32;
+    color: white;
 }
 
 .roadmap-control {
     padding-bottom: 60px;
     padding-top: 60px;
-    background-color: #ffffff;
+    background-color: #141416;
     text-align: center;
     color: black;
 }
@@ -25,14 +25,14 @@
     color: rgb(0, 0, 0);
     margin-bottom: 20px;
     text-align: center;
-    color: #000000;
+    color: white;
 }
 
 .roadmap-description {
     font-size: 18px;
-    color: rgb(0, 0, 0);
+    color: white;
     text-align: center;
-    color: black;
+    color: white;
     font-weight: 900;
     font-family: newThing;
 }
