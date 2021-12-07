@@ -2,7 +2,7 @@ import React, { useEffect, useState } from "react";
 import { Container, Row, Col } from "react-bootstrap";
 
 //import Assets
-import MintGif from '../../assets/about.gif';
+import MintGif from '../../assets/legif.gif';
 import YButton from "../basic/YButton";
 
 import { BsFileMinusFill, BsFilePlusFill } from 'react-icons/bs';

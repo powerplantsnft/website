@@ -15,7 +15,8 @@ import FounderThing from './components/founderthing/founderthing';
 import Utility from './components/utility/utility';
 import State from './components/state/state';
 import il from './assets/CenterPic.png';
-import Partners from './components/partners/footer'
+import Partners from './components/partners/footer';
+import Metaverse from './components/metaverse/metaverse';
 import './assets/newStyle.css';
 import './assets/mainstyle.css'
 
@@ -31,6 +32,7 @@ function App() {
       <Mint />
       {/* <TopItems /> */}
       <RoadMap />
+      <Metaverse/>
       <State />
       {/* <FounderThing /> */}
       <Team />

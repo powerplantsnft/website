@@ -57,31 +57,31 @@ class Meet extends React.Component {
                     scrollOnDevice={true}
                 >
                     <div>
-                        <img className="caroImg" src={"https://raw.githubusercontent.com/DeadBanditz/banditzsite/main/image0.jpg"} alt='boy1' />
+                        <img className="caroImg" src={"https://powerplantsnft.s3.amazonaws.com/1.png"} alt='boy1' />
                     </div>
                     <div>
-                        <img className="caroImg" src={"https://raw.githubusercontent.com/DeadBanditz/banditzsite/main/image1.jpg"} alt='boy2' />
+                        <img className="caroImg" src={"https://powerplantsnft.s3.amazonaws.com/100.png"} alt='boy2' />
                     </div>
                     <div>
-                        <img className="caroImg" src={"https://raw.githubusercontent.com/DeadBanditz/banditzsite/main/image0.jpg"} alt='boy1' />
+                        <img className="caroImg" src={"https://powerplantsnft.s3.amazonaws.com/5.png"} alt='boy1' />
                     </div>
                     <div>
-                        <img className="caroImg" src={"https://raw.githubusercontent.com/DeadBanditz/banditzsite/main/image1.jpg"} alt='boy2' />
+                        <img className="caroImg" src={"https://powerplantsnft.s3.amazonaws.com/12.png"} alt='boy2' />
                     </div><div>
-                        <img className="caroImg" src={"https://raw.githubusercontent.com/DeadBanditz/banditzsite/main/image0.jpg"} alt='boy1' />
+                        <img className="caroImg" src={"https://powerplantsnft.s3.amazonaws.com/13.png"} alt='boy1' />
                     </div>
                     <div>
-                        <img className="caroImg" src={"https://raw.githubusercontent.com/DeadBanditz/banditzsite/main/image1.jpg"} alt='boy2' />
+                        <img className="caroImg" src={"https://powerplantsnft.s3.amazonaws.com/14.png"} alt='boy2' />
                     </div><div>
-                        <img className="caroImg" src={"https://raw.githubusercontent.com/DeadBanditz/banditzsite/main/image0.jpg"} alt='boy1' />
+                        <img className="caroImg" src={"https://powerplantsnft.s3.amazonaws.com/15.png"} alt='boy1' />
                     </div>
                     <div>
-                        <img className="caroImg" src={"https://raw.githubusercontent.com/DeadBanditz/banditzsite/main/image1.jpg"} alt='boy2' />
+                        <img className="caroImg" src={"https://powerplantsnft.s3.amazonaws.com/16.png"} alt='boy2' />
                     </div><div>
-                        <img className="caroImg" src={"https://raw.githubusercontent.com/DeadBanditz/banditzsite/main/image0.jpg"} alt='boy1' />
+                        <img className="caroImg" src={"https://powerplantsnft.s3.amazonaws.com/17.png"} alt='boy1' />
                     </div>
                     <div>
-                        <img className="caroImg" src={"https://raw.githubusercontent.com/DeadBanditz/banditzsite/main/image1.jpg"} alt='boy2' />
+                        <img className="caroImg" src={"https://powerplantsnft.s3.amazonaws.com/18.png"} alt='boy2' />
                     </div>
                 </InfiniteCarousel>
 
