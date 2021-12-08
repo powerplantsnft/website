@@ -64,11 +64,11 @@ class Header extends React.Component {
                                 <Nav className="me-auto">
                                 </Nav>
                                 <Nav style={{ borderRadius: 0, padding: "0 20px 0 20px" }}>
-                                    <Nav.Link className="bruh" style={{ fontWeight: 900}}
+                                    <Nav.Link className="bruh" style={{ fontWeight: 900 }}
                                         onClick={onMintClick} >MINT</Nav.Link>
-                                    <Nav.Link className="bruh" style={{ fontWeight: 900}}
+                                    <Nav.Link className="bruh" style={{ fontWeight: 900 }}
                                         onClick={onRoadClick}>ROADMAP</Nav.Link>
-                                    <Nav.Link className="bruh" style={{ fontWeight: 900}}
+                                    <Nav.Link className="bruh" style={{ fontWeight: 900 }}
                                         onClick={onTeamClick} >TEAM</Nav.Link>
 
                                     {/* onClick={() => window.location.replace('/#roadmap')} >ROADMAP</Nav.Link> */}
@@ -77,14 +77,14 @@ class Header extends React.Component {
                                         onClick={onWhitelistClick} >WHITELIST</Nav.Link> */}
                                     {/* <Nav.Link> */}
 
-                                    <Nav.Link className="bruh" style={{ fontWeight: 900}}
+                                    <Nav.Link className="bruh" style={{ fontWeight: 900 }}
                                         onClick={openSea}>OPENSEA</Nav.Link>
-                                        <text style={{width: 20}}></text>
-                                        <div>
-                       <a style={{textDecoration: "none", color:"white", paddingRight: 10}}target="_blank" rel="noopener noreferrer"href="https://instagram.com/"> <BsInstagram size={32} /></a>
-                       <a style={{textDecoration: "none", color:"white", paddingLeft: 10, paddingRight: 10}}target="_blank" rel="noopener noreferrer"href="https://twitter.com/"> <BsTwitter size={32} /></a>
-                       <a style={{textDecoration: "none", color:"white", paddingLeft: 10}}target="_blank" rel="noopener noreferrer"href="https://discord.gg"> <BsDiscord size={32} />   </a>     
-                    </div>
+                                    <text style={{ width: 20 }}></text>
+                                    <div>
+                                        <a style={{ textDecoration: "none", color: "white", paddingRight: 10 }} target="_blank" rel="noopener noreferrer" href="https://instagram.com/"> <BsInstagram size={32} /></a>
+                                        <a style={{ textDecoration: "none", color: "white", paddingLeft: 10, paddingRight: 10 }} target="_blank" rel="noopener noreferrer" href="https://twitter.com/"> <BsTwitter size={32} /></a>
+                                        <a style={{ textDecoration: "none", color: "white", paddingLeft: 10 }} target="_blank" rel="noopener noreferrer" href="https://discord.gg"> <BsDiscord size={32} />   </a>
+                                    </div>
                                     {/* <text style={{ width: 20 }}></text>
                                     <Nav.Link><a style={{ backgroundColor: "#32CD32", padding: 10.5, margin: 0,borderRadius: 30,textDecoration: "none", color: "white"}} target="_blank" rel="noopener noreferrer" href="https://instagram.com/dickpixnft"> <BsInstagram size={32} /></a></Nav.Link>
                                     <Nav.Link><a style={{ backgroundColor: "#32CD32", padding: 10.5, margin: 0,borderRadius: 30,textDecoration: "none", color: "white"}} target="_blank" rel="noopener noreferrer" href="https://twitter.com/thedickpixnft"> <BsTwitter size={32} /></a></Nav.Link>
@@ -106,15 +106,18 @@ class Header extends React.Component {
                         {/* <h1><img className="thePicture" src={il} /></h1> */}
                         <Container>
                             <Row>
-                                <Col md={6} xs={12} className='about-description' style={{textAlign: "center"}}>
+                                <Col md={6} xs={12} className='about-description' style={{ textAlign: "center" }}>
                                     <header>
-                                        <span style={{ color: "white", fontStyle: "normal" }}>The new generation of plants.<br /></span>
+                                        <span style={{ color: "white", fontStyle: "normal" }}>THEW NEW GENERATION OF PLANTS<br /></span>
                                         {/* <span style={{ color: "white", fontStyle: "normal" }}>No watering required.<br /></span> */}
                                     </header>
-                                    <p style={{color: "white"}}>
+                                    <p style={{ color: "white"}}>
                                         No watering required.
                                     </p>
-                                    <text className="xbutton" onClick={onMintClick}>MINT</text>
+                                    <div style={{display: "flex", textAlign: "center", justifyContent: "center" }}>\
+                                    <text className="xbutton" onClick={onMintClick}>MINT</text><p style={{ color: "white", paddingTop: 25, paddingLeft: 10 }}>0.08 ETH</p>
+                                    </div>
+
 
                                     {/* <div><YButton text='COMING SOON' /></div> */}
                                 </Col>

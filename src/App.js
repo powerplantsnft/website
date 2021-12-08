@@ -25,6 +25,7 @@ function App() {
     <div>
       <Header />
       {/* <img className="thePicture" src={il}/> */}
+      <State />
       <About />
       <Utility className="utilitysec"/>
       <Meet />
@@ -33,7 +34,7 @@ function App() {
       {/* <TopItems /> */}
       <RoadMap />
       <Metaverse/>
-      <State />
+
       {/* <FounderThing /> */}
       <Team />
       {/* <JoinCommunity /> */}

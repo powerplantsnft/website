@@ -39,6 +39,7 @@
     border: solid 5px black;
     border-radius: 20px;
     font-family: newThing;
+    width: 150px;
 }
 
 .xbutton:hover{

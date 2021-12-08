@@ -8,24 +8,24 @@ class State extends React.Component{
         this.state={
             data:[
                 {
-                    title:"15",
-                    text:"Total in Collection"
+                    title:"10K",
+                    text:"Collection Size"
                 },
                 {
-                    title:"10K",
+                    title:"46",
+                    text:"Total Traits"
+                },
+                {
+                    title:"--",
                     text:"Trees Planted"
                 },
                 {
-                    title:"25M",
+                    title:"--",
                     text:"Total Donated"
                 },
                 {
-                    title:"22",
-                    text:"Countries World Wide"
-                },
-                {
-                    title:"5",
-                    text:"Industry Awards"
+                    title:".08",
+                    text:"Price (ETH)"
                 }
             ]
         }

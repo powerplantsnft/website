@@ -4,7 +4,7 @@
     max-width: 240px;
     width: 240px;
     max-height: 350px;
-    height:  180px;
+    height:  400px;
     background-color: rgb(27,28,30);
     text-align: left;
     display: inline-block;
@@ -29,7 +29,7 @@
 .card_text{
     margin: 30px;
     line-height: 1.6em;
-    font-size: 0px;
+    font-size: 15px;
     color: rgb(138,138,138);
     font-family: "open sans",sans-serif;
 }

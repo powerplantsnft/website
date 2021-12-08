@@ -11,37 +11,37 @@ function Utility() {
     const [card1, setCard1] = useState({
         title: "Certificate of authenticity",
         svg: 1,
-        description: "asfdf"
+        description: "I'm a paragraph. Click here to add your own text and edit me. Let your users get to know you."
     })
     const [card2, setCard2] = useState({
-        title: "Community",
+        title: "Exclusive access to community groups",
         svg: 2,
-        description: "asdasdfasdff"
+        description: "I'm a paragraph. Click here to add your own text and edit me. Let your users get to know you."
     })
     const [card3, setCard3] = useState({
-        title: "Raffles",
+        title: "Owners will be entered into raffles",
         svg: 3,
-        description: "asfffdf"
+        description: "I'm a paragraph. Click here to add your own text and edit me. Let your users get to know you."
     })
     const [card6, setCard6] = useState({
-        title: "Win Rare Seeds & Art",
+        title: "Random chance to win original art & seeds to rare plant",
         svg: 6,
-        description: "asasdffedf"
+        description: "I'm a paragraph. Click here to add your own text and edit me. Let your users get to know you."
     })
     const [card4, setCard4] = useState({
-        title: "Bonus Content",
+        title: "Rare owners get bonus content",
         svg: 4,
-        description: "asasdffdf"
+        description: "I'm a paragraph. Click here to add your own text and edit me. Let your users get to know you."
     })
     const [card5, setCard5] = useState({
         title: "Special Offer Codes",
         svg: 5,
-        description: "asdasdffef"
+        description: "I'm a paragraph. Click here to add your own text and edit me. Let your users get to know you."
     })
     const [card7, setCard7] = useState({
-        title: "Planting Trees",
+        title: "Planting a tree for every NFT minted",
         svg: 7,
-        description: "asdasdffef"
+        description: "I'm a paragraph. Click here to add your own text and edit me. Let your users get to know you."
     })
     const dispatch = useDispatch();
     const blockchain = useSelector((state) => state.blockchain);
