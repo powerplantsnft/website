@@ -66,7 +66,7 @@ class Meet extends React.Component {
                         <img className="caroImg" src={"https://powerplantsnft.s3.amazonaws.com/5.png"} alt='boy1' />
                     </div>
                     <div>
-                        <img className="caroImg" src={"https://powerplantsnft.s3.amazonaws.com/12.png"} alt='boy2' />
+                        <img className="caroImg" src={"https://powerplantsnft.s3.amazonaws.com/1000.png"} alt='boy2' />
                     </div><div>
                         <img className="caroImg" src={"https://powerplantsnft.s3.amazonaws.com/13.png"} alt='boy1' />
                     </div>
