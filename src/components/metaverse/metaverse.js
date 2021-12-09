@@ -4,7 +4,7 @@ import "./metaverse.css"
 class Metaverse extends React.Component {
     render() {
         return (
-            <div className="metaverse_layout">
+            <div style={{}}className="metaverse_layout">
                 <div className="metaverse_section">
                     <div className="metaverse_left_bar" >
                         <p className="metaverse_left_title">The Metaverse.</p>

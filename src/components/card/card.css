@@ -2,7 +2,7 @@
     border: 2px solid rgb(27,28,30);
     border-radius: 5px;
     max-width: 240px;
-    width: 240px;
+    width: 180px;
     max-height: 350px;
     height:  400px;
     background-color: rgb(27,28,30);
@@ -13,7 +13,7 @@
 }
 
 .card_svg{
-    margin-left: 70px;
+    margin-left: 40px;
     margin-top: 0px;
     width: 100px;
     height: 100px;
@@ -22,14 +22,14 @@
 
 .card_title{
     text-align: center;
-    font-size: 20px;
+    font-size: 18px;
     color: rgb(136,156,231);
 }
 
 .card_text{
     margin: 30px;
     line-height: 1.6em;
-    font-size: 15px;
+    font-size: 13px;
     color: rgb(138,138,138);
     font-family: "open sans",sans-serif;
 }

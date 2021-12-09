@@ -57,3 +57,15 @@
     color: black;
     border: black;
 }
+
+.cards_layout2{
+    justify-content: stretch;
+    display: flex;
+    flex-direction: row!important;
+}
+
+.utility_right_bar{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}

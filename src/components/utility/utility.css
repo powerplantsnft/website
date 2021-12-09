@@ -9,7 +9,7 @@
     border-width: thin;
     /* border-color: rgb(63,67,73); */
     height:350px;
-    min-width: 1240px;
+    /* min-width: 1240px; */
     padding: 25px;
 
     display: flex;
