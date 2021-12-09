@@ -108,7 +108,7 @@ class Header extends React.Component {
                             <Row>
                                 <Col md={6} xs={12} className='about-description' style={{ textAlign: "center" }}>
                                     <header>
-                                        <span style={{ color: "white", fontStyle: "normal" }}>THEW NEW GENERATION OF PLANTS<br /></span>
+                                        <span style={{ color: "white", fontStyle: "normal" }}>THE NEW GENERATION OF PLANTS<br /></span>
                                         {/* <span style={{ color: "white", fontStyle: "normal" }}>No watering required.<br /></span> */}
                                     </header>
                                     <p style={{ color: "white"}}>
