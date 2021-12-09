@@ -137,7 +137,7 @@
 
 @media (min-width: 767px) {
     .header-control {
-        background-image: url('../../assets/header-bg.webp');
+        background-image: url('../../assets/header.png');
         /* background-color: white; */
         /* this can be changed to header-back or dickbackground */
         display: flex;

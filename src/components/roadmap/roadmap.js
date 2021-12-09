@@ -16,33 +16,33 @@ class RoadMap extends React.Component {
             roadmaps: [
                 {
                     tag: 'Phase 1',
-                    title: 'Inception',
-                    content: "-Website is launched \n -Social Media marketing campaigns are launched \n -Create partnerships with tree foundations"
+                    title: 'Inception (Q4 2021)',
+                    content: "-Website is launched\n -Create partnerships with tree foundations"
                 },
                 {
                     tag: 'Phase 2',
-                    title: 'Community',
-                    content: "-Raffle giveaway once we reach 25,000 Discord Members\n-Merchandise is launched\n-Whitelist"
+                    title: 'Community (Q4 2021)',
+                    content: "-Social Media marketing campaigns are launched\n-Raffle giveaway once we reach 25,000 discord members\n-Whitelisting"
                 },
                 {
                     tag: 'Phase 3',
-                    title: 'Launch',
-                    content: '-NFTs are sold to the public\n-Unlockable content\n-Exclusive community group launched'
+                    title: 'Launch (Q4 2021)',
+                    content: '-NFTs are sold to the public\n-Unlockable content released\n-Exclusive community group launched\n-Merchandise is launched'
                 },
                 {
                     tag: 'Phase 4',
-                    title: 'Donation',
-                    content: '-Donation of 10% to charitable foundations\n -Contributions to DAOs \n-Trees are planted and matched'
+                    title: 'Donation (Q1 2022)',
+                    content: '-Donation of 5% to charitable foundations\n-Contributions to DAOs\n-Trees are planted and matched'
                 },
                 {
                     tag: 'Phase 5',
-                    title: 'After Launch',
-                    content: '-$50,000 is pumped into the Power Plants Fund for ongoing developments and marketing campaigns\n-Rare owners get original art/seeds mailed to them\n-2% of secondary marketplace sales are donated\n-Raffles on social media platforms'
+                    title: 'After Launch (Q1 2022)',
+                    content: '-$50,000 is pumped into the Power Plants Fund for ongoing developments and marketing campaigns.\n-Rare owners get original art/seeds mailed to them\n-2% of ongoing secondary marketplace sales are donated\n-Raffles on social media platforms'
                 },
                 {
                     tag: 'Phase 6',
-                    title: 'Metaverse',
-                    content: '-The next phase...'
+                    title: 'Metaverse (Q2 2022)',
+                    content: '-Owners will have the ability to stake their NFTs\n-Owners will receive rewards from staking.'
                 },
                 
             ]

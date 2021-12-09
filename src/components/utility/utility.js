@@ -11,37 +11,43 @@ function Utility() {
     const [card1, setCard1] = useState({
         title: "Certificate of authenticity",
         svg: 1,
-        description: "I'm a paragraph. Click here to add your own text and edit me. Let your users get to know you."
+        description: "- Owners  will  be  able  to  download  after  purchase  (pdf/email/download)",
+        text1:"- Only  applies  to  the  original  owner"
     })
     const [card2, setCard2] = useState({
         title: "Exclusive access to community groups",
         svg: 2,
-        description: "I'm a paragraph. Click here to add your own text and edit me. Let your users get to know you."
+        description: "- Community  events",
+        text1:"- Discord  groups"
     })
     const [card3, setCard3] = useState({
         title: "Owners will be entered into raffles",
         svg: 3,
-        description: "I'm a paragraph. Click here to add your own text and edit me. Let your users get to know you."
+        description: "- Owners  will  be  into  raffles  for  items  such  as  eth,  goods,  merch,  etc",
     })
     const [card6, setCard6] = useState({
         title: "Random chance to win original art & seeds to rare plant",
         svg: 6,
-        description: "I'm a paragraph. Click here to add your own text and edit me. Let your users get to know you."
+        description: "- Physical  original  art  of  NFT  will  be  mailed  to  owners  (or  value  in  eth)",
+        text1:"- Seeds  mailed  to  owners  *subject  to  country  laws*"
     })
     const [card4, setCard4] = useState({
-        title: "Rare owners get bonus content",
+        title: "Rewards  from  staking  NFTs",
         svg: 4,
-        description: "I'm a paragraph. Click here to add your own text and edit me. Let your users get to know you."
+        description: "- Owners  will  be  allowed  to  stake  their  NFTs  and  claim  rewards",
+        text1:"- More  details  as  Metaverse  integration  is  completed"
     })
     const [card5, setCard5] = useState({
-        title: "Special Offer Codes",
+        title: "Special  offer  codes  to  redeem  discounted  items",
         svg: 5,
-        description: "I'm a paragraph. Click here to add your own text and edit me. Let your users get to know you."
+        description: "- Owners  will  be  able  to  use  these  special  offer  codes  to  receive  discounts  on  merchandise  from the  Power  Plants  store",
     })
     const [card7, setCard7] = useState({
-        title: "Planting a tree for every NFT minted",
+        title: "Planting 4 trees for every NFT minted",
         svg: 7,
-        description: "I'm a paragraph. Click here to add your own text and edit me. Let your users get to know you."
+        description: "- Donating  2  trees  for  every  order.  Power  Plants  will  match  if  all  5K  are  minted",
+        text1:"- Owners  will  have  the  ability  to  have  4  trees  planted  on  behalf  of  Power  Plants",
+        text2: "- Proof  of  donations"
     })
     const dispatch = useDispatch();
     const blockchain = useSelector((state) => state.blockchain);
@@ -111,19 +117,19 @@ function Utility() {
                 <div className="utility_right_bar">
                     <div className="cards_layout2">
                         <Card title={card1.title} svg={card1.svg}
-                            description={card1.description} />
+                            description={card1.description} text={card1.text1}/>
                         <Card title={card2.title} svg={card2.svg}
-                            description={card2.description} />
+                            description={card2.description} text={card2.text1}/>
                         <Card title={card3.title} svg={card6.svg}
-                            description={card3.description} />
+                            description={card3.description} text={card3.text1}/>
                         <Card title={card4.title} svg={card3.svg}
-                            description={card4.description} />
+                            description={card4.description} text={card4.text1}/>
                         <Card title={card5.title} svg={card4.svg}
-                            description={card5.description} />
+                            description={card5.description} text={card5.text1}/>
                         <Card title={card6.title} svg={card5.svg}
-                            description={card6.description} />
+                            description={card6.description} text={card6.text1}/>
                         <Card title={card7.title} svg={card7.svg}
-                            description={card7.description} />
+                            description={card7.description} text={card7.text1} text2={card7.text2}/>
                     </div>
                 </div>
             </div>

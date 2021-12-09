@@ -21,7 +21,7 @@
 .state_bg{
     height: 400px;
     width: 100%;
-    background-image: url(https://static.wixstatic.com/media/c837a6_d11c6c437c0f4feb9de8591b42ead168~mv2.jpg/v1/fill/w_1501,h_190,al_c,q_80,usm_0.66_1.00_0.01/c837a6_d11c6c437c0f4feb9de8591b42ead168~mv2.webp);
+    background-image: url(../../assets/thing.png);
     background-position: 50%;
     background-repeat: no-repeat;
     background-size: cover;

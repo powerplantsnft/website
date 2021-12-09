@@ -8,7 +8,7 @@ class State extends React.Component{
         this.state={
             data:[
                 {
-                    title:"10K",
+                    title:"5K",
                     text:"Collection Size"
                 },
                 {
@@ -24,7 +24,7 @@ class State extends React.Component{
                     text:"Total Donated"
                 },
                 {
-                    title:".08",
+                    title:"0.1",
                     text:"Price (ETH)"
                 }
             ]

@@ -108,14 +108,14 @@ class Header extends React.Component {
                             <Row>
                                 <Col md={6} xs={12} className='about-description' style={{ textAlign: "center" }}>
                                     <header>
-                                        <span style={{ color: "white", fontStyle: "normal" }}>THE NEW GENERATION OF PLANTS<br /></span>
+                                        <span style={{ color: "white", fontStyle: "normal" }}>THEW NEW GENERATION OF PLANTS<br /></span>
                                         {/* <span style={{ color: "white", fontStyle: "normal" }}>No watering required.<br /></span> */}
                                     </header>
                                     <p style={{ color: "white"}}>
                                         No watering required.
                                     </p>
                                     <div style={{display: "flex", textAlign: "center", justifyContent: "center" }}>\
-                                    <text className="xbutton" onClick={onMintClick}>MINT</text><p style={{ color: "white", paddingTop: 25, paddingLeft: 10 }}>0.08 ETH</p>
+                                    <text className="xbutton" onClick={onMintClick}>MINT</text><p style={{ color: "white", paddingTop: 25, paddingLeft: 10 }}>0.1 ETH</p>
                                     </div>
 
 

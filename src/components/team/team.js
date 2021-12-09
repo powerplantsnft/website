@@ -19,27 +19,27 @@ class Team extends React.Component {
         this.state = {
             teams: [
                 {
-                    image: "https://powerplantsnft.s3.amazonaws.com/1.png",
+                    image: "https://github.com/powerplantsnft/website/blob/main/pp1.jpeg?raw=true",
                     title: 'Founder',
                     name: "Muhani"
                 },
                 {
-                    image: "https://powerplantsnft.s3.amazonaws.com/500.png",
+                    image: "https://github.com/powerplantsnft/website/blob/main/pp2.jpeg?raw=true",
                     title: 'Founder',
                     name: "Thomas"
                 },
                 {
-                    image: "https://powerplantsnft.s3.amazonaws.com/1000.png",
+                    image: "https://github.com/powerplantsnft/website/blob/main/pp3.jpeg?raw=true",
                     title: 'Artist',
                     name: "Alexander"
                 },
                 {
-                    image: "https://powerplantsnft.s3.amazonaws.com/1200.png",
+                    image: "https://github.com/powerplantsnft/website/blob/main/pp4.jpeg?raw=true",
                     title: 'Developer',
                     name: "Joseph"
                 }, 
                 {
-                    image: "https://powerplantsnft.s3.amazonaws.com/23.png",
+                    image: "https://github.com/powerplantsnft/website/blob/main/pp5.jpeg?raw=true",
                     title: 'Social Media',
                     name: "Emily"
                 }

@@ -40,6 +40,12 @@ class Card extends React.Component {
                 <p className="card_text">
                     {this.props.description}
                 </p>
+                <p className="card_text1">
+                    {this.props.text}
+                </p>
+                <p className="card_text1">
+                    {this.props.text2}
+                </p>
                 <hr className="card_bar">
 
                 </hr>
