@@ -20,7 +20,7 @@ class Meet extends React.Component {
             <div className='meet-control'>
                 <Container>
                     <header style={{ textAlign: "center", color: "white" }}>
-                        <br /> <span style={{ fontStyle: "normal" }}>Check out our assortment.</span>
+                        <br /> <span style={{ fontStyle: "normal" }}></span>
                     </header>
                 </Container>
                 <InfiniteCarousel
@@ -57,40 +57,25 @@ class Meet extends React.Component {
                     scrollOnDevice={true}
                 >
                     <div>
-                        <img className="caroImg" src={"../../assets/a.jpeg"} alt='boy1' />
+                        <img className="caroImg" src={"https://github.com/powerplantsnft/website/blob/main/src/assets/a.jpeg?raw=true"} alt='boy1' />
                     </div>
                     <div>
-                        <img className="caroImg" src={"https://github.com/powerplantsnft/website/blob/main/13.png?raw=true"} alt='boy2' />
+                        <img className="caroImg" src={"https://github.com/powerplantsnft/website/blob/main/src/assets/b.jpeg?raw=true"} alt='boy2' />
                     </div>
                     <div>
-                        <img className="caroImg" src={"https://github.com/powerplantsnft/website/blob/main/14.png?raw=true"} alt='boy1' />
+                        <img className="caroImg" src={"https://github.com/powerplantsnft/website/blob/main/src/assets/c.jpeg?raw=true"} alt='boy1' />
                     </div>
                     <div>
-                        <img className="caroImg" src={"https://github.com/powerplantsnft/website/blob/main/26.jpg?raw=true"} alt='boy2' />
+                        <img className="caroImg" src={"https://github.com/powerplantsnft/website/blob/main/src/assets/d.jpeg?raw=true"} alt='boy2' />
                     </div>
                     <div>
-                        <img className="caroImg" src={"https://github.com/powerplantsnft/website/blob/main/33.jpg?raw=true"} alt='boy1' />
+                        <img className="caroImg" src={"https://github.com/powerplantsnft/website/blob/main/src/assets/e.jpeg?raw=true"} alt='boy1' />
                     </div>
                     <div>
-                        <img className="caroImg" src={"https://github.com/powerplantsnft/website/blob/main/37.png?raw=true"} alt='boy2' />
+                        <img className="caroImg" src={"https://github.com/powerplantsnft/website/blob/main/src/assets/f.jpeg?raw=true"} alt='boy2' />
                     </div>
                     <div>
-                        <img className="caroImg" src={"https://github.com/powerplantsnft/website/blob/main/40.png?raw=true"} alt='boy1' />
-                    </div>
-                    <div>
-                        <img className="caroImg" src={"https://github.com/powerplantsnft/website/blob/main/42.png?raw=true"} alt='boy2' />
-                    </div>
-                    <div>
-                        <img className="caroImg" src={"https://github.com/powerplantsnft/website/blob/main/45.jpg?raw=true"} alt='boy1' />
-                    </div>
-                    <div>
-                        <img className="caroImg" src={"https://github.com/powerplantsnft/website/blob/main/53.jpg?raw=true"} alt='boy2' />
-                    </div>
-                    <div>
-                        <img className="caroImg" src={"https://github.com/powerplantsnft/website/blob/main/54.jpg?raw=true"} alt='boy2' />
-                    </div>
-                    <div>
-                        <img className="caroImg" src={"https://github.com/powerplantsnft/website/blob/main/7.png?raw=true"} alt='boy2' />
+                        <img className="caroImg" src={"https://github.com/powerplantsnft/website/blob/main/src/assets/g.jpeg?raw=true"} alt='boy1' />
                     </div>
                 </InfiniteCarousel>
 

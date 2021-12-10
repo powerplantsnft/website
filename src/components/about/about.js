@@ -20,7 +20,7 @@ class About extends React.Component {
                                 UTILITY<br />
                             </header>
                             <p style={{paddingTop:"3em"}}>
-                                <text className="about-paragraph">Planting up to 4
+                                <text className="about-paragraph">Planting up to 4 trees for
                                 every Power Plants NFT minted.
                                 </text> <br /><br />
 
