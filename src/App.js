@@ -24,20 +24,18 @@ function App() {
   return (
     <div>
       <Header />
-      {/* <img className="thePicture" src={il}/> */}
-      <State />
-      <About />
-      <Utility className="utilitysec"/>
-      <Meet />
+       <State />
+       <Mint />
+      <About /> 
+      
+     {/* <Utility className="utilitysec"/> */}
+     <Meet />
 
-      <Mint />
-      {/* <TopItems /> */}
+
       <RoadMap />
       <Metaverse/>
 
-      {/* <FounderThing /> */}
       <Team />
-      {/* <JoinCommunity /> */}
       <Partners />
       <Footer />
     </div>

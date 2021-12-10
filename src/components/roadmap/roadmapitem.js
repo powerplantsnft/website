@@ -17,20 +17,20 @@ class RoadMapItem extends React.Component {
         return (
             <div>
                 <div onClick={() => {this.setState({open: !this.state.open})}}
-                    aria-controls='example'
-                    aria-expanded={this.state.open}
+                    // aria-controls='example'
+                    // aria-expanded={this.state.open}
                     className='collapse-header-control' >
                     <div className='collapse-header'>
-                        <h4>{this.props.tag}</h4>
+                        {/* <h4>{this.props.tag}</h4> */}
                         <p>{this.props.title}</p>
                     </div>
-                    <BsPlusLg />
+                    {/* <BsPlusLg /> */}
                 </div>
-                <Collapse in={this.state.open}>
+                {/* <Collapse in={this.state.open}> */}
                     <div id="example" className='collapse-content display-linebreak'>
                         {this.props.content}
                     </div>
-                </Collapse>
+                {/* </Collapse> */}
             </div>
         );
     }

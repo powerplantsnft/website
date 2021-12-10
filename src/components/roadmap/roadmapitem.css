@@ -5,8 +5,7 @@
     cursor: pointer;
     padding-top: 10px;
     padding-bottom: 10px;
-    border-bottom: 1px solid rgba(255,255,255,0.2);
-    font-family: newThing;
+    font-family: PoppinsExtraLight;
 }
 
 @font-face {
@@ -35,18 +34,20 @@
 
 .collapse-header p {
     color: white;
-    font-weight: 700;
-    font-size: 25px;
-    margin-left: 20px;
+    font-weight: 400;
+    font-size: 20px;
+    /* margin-left: 20px; */
+    margin-bottom: 0px;
     margin-top: 5px;
-    font-family: newThing;
+    font-family: PoppinsExtraLight;
 }
 
 .collapse-content {
-    font-size: 18px;
-    color: white;
-    font-weight: bold;
-    font-family: newThing;
+    color:#8a8a8a;
+    font-size: 20px;
+    font-weight: 400;
+    font-style: normal;
+    font-family: "PoppinsExtraLight";
     text-align: left;
 }
 .display-linebreak {

@@ -1,8 +1,8 @@
 import React from "react";
 
-import Logo from '../../assets/logo.jpg'
+
 import il from '../../assets/CenterPic.png'
-import il2 from '../../assets/Pink Caladium.webp'
+import il2 from '../../assets/Pink Caladium.png'
 // import { Container, Row, Col } from "react-bootstrap";
 
 //import css
@@ -27,15 +27,25 @@ import {
 } from 'react-icons/bs';
 //import components
 import YButton from "../basic/YButton";
-function onMintClick() {
+
+function onMintClick(){
     document.getElementById("mint").scrollIntoView();
-    // alert("Your dick is hard!");
+}
+function onHomeClick() {
+    console.log("---")
+    document.getElementById("home").scrollIntoView();
 }
 function onTeamClick() {
     document.getElementById("team").scrollIntoView();
 }
-function onRoadClick() {
-    document.getElementById("roadmap").scrollIntoView();
+function onWhiteClick() {
+    window.location.href="https://whitepaper.powerplantsnft.com/"
+}
+function onGalleryClick(){
+    window.location.href="https://gallery.powerplantsnft.com/"
+}
+function onShopClick(){
+    window.location.href="https://shop.powerplantsnft.com/";
 }
 function onWhitelistClick() {
     document.getElementById("whitelist").scrollIntoView();
@@ -45,15 +55,14 @@ function onSocialsClick() {
     document.getElementById("socials").scrollIntoView();
 }
 
-function openSea() {
+function onOpenSeaClick() {
     window.open("https://opensea.io/");
 }
 class Header extends React.Component {
     render() {
         return (
             <>
-
-                <div className='header-control'>
+                <div className='header-control' id="home">
                     <Navbar collapseOnSelect expand="lg">
                         <Container>
                             <Navbar.Brand href="#home" style={{ paddingTop: 10 }}>
@@ -64,40 +73,22 @@ class Header extends React.Component {
                                 <Nav className="me-auto">
                                 </Nav>
                                 <Nav style={{ borderRadius: 0, padding: "0 20px 0 20px" }}>
-                                    <Nav.Link className="bruh" style={{ fontWeight: 900 }}
-                                        onClick={onMintClick} >MINT</Nav.Link>
-                                    <Nav.Link className="bruh" style={{ fontWeight: 900 }}
-                                        onClick={onRoadClick}>ROADMAP</Nav.Link>
-                                    <Nav.Link className="bruh" style={{ fontWeight: 900 }}
-                                        onClick={onTeamClick} >TEAM</Nav.Link>
+                                    <Nav.Link className="bruh nav-link-btn" onClick={onHomeClick} >Home</Nav.Link>
+                                    <Nav.Link className="bruh nav-link-btn" onClick={onWhiteClick}>White Paper/FAQ</Nav.Link>
+                                    <Nav.Link className="bruh nav-link-btn" onClick={onGalleryClick} >Gallery</Nav.Link>
+                                    <Nav.Link className="bruh nav-link-btn" onClick={onShopClick} >Shop</Nav.Link>
+                                    <Nav.Link className="bruh nav-link-btn" onClick={onOpenSeaClick} >OpenSea</Nav.Link>
 
-                                    {/* onClick={() => window.location.replace('/#roadmap')} >ROADMAP</Nav.Link> */}
-
-                                    {/* <Nav.Link className="bruh" style={{ fontWeight: 900, backgroundColor: "black", borderRadius: 30 }}
-                                        onClick={onWhitelistClick} >WHITELIST</Nav.Link> */}
-                                    {/* <Nav.Link> */}
-
-                                    <Nav.Link className="bruh" style={{ fontWeight: 900 }}
-                                        onClick={openSea}>OPENSEA</Nav.Link>
-                                    <text style={{ width: 20 }}></text>
+                                    <div style={{display: "flex", textAlign: "center", justifyContent: "center", padding:"0em" }}>
+                                        <text className="mint-button" onClick={onMintClick}>MINT</text>
+                                    </div>
+                                    {/* <text style={{ width: 20 }}></text>
                                     <div>
                                         <a style={{ textDecoration: "none", color: "white", paddingRight: 10 }} target="_blank" rel="noopener noreferrer" href="https://instagram.com/"> <BsInstagram size={32} /></a>
                                         <a style={{ textDecoration: "none", color: "white", paddingLeft: 10, paddingRight: 10 }} target="_blank" rel="noopener noreferrer" href="https://twitter.com/"> <BsTwitter size={32} /></a>
                                         <a style={{ textDecoration: "none", color: "white", paddingLeft: 10 }} target="_blank" rel="noopener noreferrer" href="https://discord.gg"> <BsDiscord size={32} />   </a>
-                                    </div>
-                                    {/* <text style={{ width: 20 }}></text>
-                                    <Nav.Link><a style={{ backgroundColor: "#32CD32", padding: 10.5, margin: 0,borderRadius: 30,textDecoration: "none", color: "white"}} target="_blank" rel="noopener noreferrer" href="https://instagram.com/dickpixnft"> <BsInstagram size={32} /></a></Nav.Link>
-                                    <Nav.Link><a style={{ backgroundColor: "#32CD32", padding: 10.5, margin: 0,borderRadius: 30,textDecoration: "none", color: "white"}} target="_blank" rel="noopener noreferrer" href="https://twitter.com/thedickpixnft"> <BsTwitter size={32} /></a></Nav.Link>
-                                    <Nav.Link><a style={{ backgroundColor: "#32CD32", padding: 10.5, margin: 0,borderRadius: 30,textDecoration: "none", color: "white"}} target="_blank" rel="noopener noreferrer" href="https://discord.gg/SgJyg5Wx/"> <BsDiscord size={32} />   </a></Nav.Link> */}
+                                    </div> */}
 
-                                    <text style={{ width: 0 }}></text>
-                                    <div>
-                                        {/* <a style={{ backgroundColor: "#32CD32", padding: 20, textDecoration: "none", color: "white", paddingRight: 10 }} target="_blank" rel="noopener noreferrer" href="https://instagram.com/dickpixnft"> <BsInstagram size={32} /></a>
-                                        <a style={{ backgroundColor: "#32CD32", padding: 20, textDecoration: "none", color: "white", paddingLeft: 10, paddingRight: 10 }} target="_blank" rel="noopener noreferrer" href="https://twitter.com/thedickpixnft"> <BsTwitter size={32} /></a>
-                                        <a style={{ backgroundColor: "#32CD32", padding: 20, textDecoration: "none", color: "white", paddingLeft: 10 }} target="_blank" rel="noopener noreferrer" href="https://discord.gg/SgJyg5Wx/"> <BsDiscord size={32} />   </a> */}
-                                    </div>
-                                    {/* <a href="https://google.com/"><YButton text='OPENSEA' /></a>
-                                    </Nav.Link> */}
                                 </Nav>
                             </Navbar.Collapse>
                         </Container>
@@ -106,16 +97,27 @@ class Header extends React.Component {
                         {/* <h1><img className="thePicture" src={il} /></h1> */}
                         <Container>
                             <Row>
-                                <Col md={6} xs={12} className='about-description' style={{ textAlign: "center" }}>
+                                <Col md={6} xs={12} className='about-description' style={{ textAlign: "left" }}>
                                     <header>
-                                        <span style={{ color: "white", fontStyle: "normal" }}>THE NEW GENERATION OF PLANTS<br /></span>
+                                        <span className="home-title" >THE NEXT GENERATION<br /> OF PLANTS</span>
                                         {/* <span style={{ color: "white", fontStyle: "normal" }}>No watering required.<br /></span> */}
                                     </header>
-                                    <p style={{ color: "white"}}>
+                                    <p className="home-title-content">
                                         No watering required.
                                     </p>
-                                    <div style={{display: "flex", textAlign: "center", justifyContent: "center" }}>\
-                                    <text className="xbutton" onClick={onMintClick}>MINT</text><p style={{ color: "white", paddingTop: 25, paddingLeft: 10 }}>0.1 ETH</p>
+                                    <div style={{paddingTop:"2em", display: "flex", textAlign: "center"}}>
+                                        <text className="mint-button" onClick={onMintClick}>MINT</text><p style={{ color: "white", paddingTop: 25, paddingLeft: 10 }}>0.1 ETH</p>
+                                    </div>
+                                    <div className="social-button-container">
+                                        <a className="social-button" href="http://discord.gg/RNxVea93dN">
+                                            <img src="https://static.wixstatic.com/media/9529be_9bd7b35f04334b70aaafeee921e3c67f~mv2.png/v1/fill/w_39,h_39,al_c,q_85,usm_0.66_1.00_0.01/9529be_9bd7b35f04334b70aaafeee921e3c67f~mv2.webp" alt=""/>
+                                        </a>
+                                        <a className="social-button" href="http://instagram.com/powerplantsnft">
+                                            <img src="https://static.wixstatic.com/media/9529be_540ad1f79c0e4da587e2095f0226c14c~mv2.png/v1/fill/w_39,h_39,al_c,q_85,usm_0.66_1.00_0.01/9529be_540ad1f79c0e4da587e2095f0226c14c~mv2.webp" alt=""/>
+                                        </a>
+                                        <a className="social-button" href="https://twitter.com/PowerPlants_">
+                                            <img src="https://static.wixstatic.com/media/9529be_2bfd2ec19e0045c69c757f9e6d0bc4fe~mv2.png/v1/fill/w_39,h_39,al_c,q_85,usm_0.66_1.00_0.01/9529be_2bfd2ec19e0045c69c757f9e6d0bc4fe~mv2.webp" alt=""/>
+                                        </a>
                                     </div>
 
 
@@ -127,10 +129,6 @@ class Header extends React.Component {
                             </Row>
                         </Container>
 
-                        <div className='header-content-buttons-container'>
-                            {/* <YButton text='DISCORD' /> &nbsp;
-                        <YButton text='TWITTER' /> */}
-                        </div>
                     </div>
                     <div></div>
                 </div>

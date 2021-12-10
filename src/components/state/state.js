@@ -8,11 +8,15 @@ class State extends React.Component{
         this.state={
             data:[
                 {
+                    title:".1 ETH",
+                    text:"Price"
+                },
+                {
                     title:"5K",
                     text:"Collection Size"
                 },
                 {
-                    title:"46",
+                    title:"53",
                     text:"Total Traits"
                 },
                 {
@@ -21,11 +25,7 @@ class State extends React.Component{
                 },
                 {
                     title:"--",
-                    text:"Total Donated"
-                },
-                {
-                    title:"0.1",
-                    text:"Price (ETH)"
+                    text:"$USD Donated"
                 }
             ]
         }
@@ -34,7 +34,9 @@ class State extends React.Component{
         console.log(this.state.data);
         return(
             <div className="state_layout">
-                {/* <p className="state_title">ADD STATS ABOUT OUR PROJECT HERE</p> */}
+
+                <p className="state_title">Days until Mint</p>
+                <img style={{paddingBottom: 20}}src="https://gen.sendtric.com/countdown/oqbi49z8p8"/>
                 <div className="state_cards">
                     {
                     this.state.data.map(element=>{

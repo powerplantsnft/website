@@ -11,4 +11,11 @@ body {
     font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
       monospace;
   }
+
+  @font-face {
+    font-family: 'PoppinsExtraLight';
+    src: local('PoppinsExtraLight'), url(./assets/fonts/Poppins-ExtraLight.ttf) format('woff');
+    /* other formats include: 'woff2', 'truetype, 'opentype',
+                              'embedded-opentype', and 'svg' */
+  }
   

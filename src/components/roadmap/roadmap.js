@@ -53,15 +53,16 @@ class RoadMap extends React.Component {
         return (
             <div className='roadmap-control' id='roadmap' style={{textAlign: "center"}}>
                 <Container >
-                    <text><header style={{fontWeight: 900, fontStyle: "normal"}}><span>POWER PLANTS</span> ROAD MAP</header></text>
+                    
                     {/* <p className='roadmap-description'>
                     Our Roadmap is under construction!Placeholder
                     </p> */}
                     <Row style={{alignContent: "center", justifyContent: "center", textAlign: "center"}}>
                         <Col xs={12} md={6}>
-                            <img src={"https://static.wixstatic.com/media/9529be_c5c27e794a4a403fa063f9a414247950~mv2.png/v1/crop/x_555,y_175,w_1673,h_2667/fill/w_488,h_778,al_c,q_90,usm_0.66_1.00_0.01/Blue%20Sapphire%20Orchid.webp"}/>
+                            <img src={"https://static.wixstatic.com/media/9529be_c5c27e794a4a403fa063f9a414247950~mv2.png/v1/crop/x_555,y_175,w_1673,h_2667/fill/w_488,h_778,al_c,q_90,usm_0.66_1.00_0.01/Blue%20Sapphire%20Orchid.webp"} style={{width:"100%"}}/>
                         </Col>
                         <Col  style={{alignContent: "center", justifyContent: "center", textAlign: "center"}}>
+                        <text><header className="roadmap-title" > ROAD MAP</header></text>
                             {
                                 this.state.roadmaps.map((item, index) => {
                                     return(

@@ -2,7 +2,7 @@ import React, { useEffect, useState } from "react";
 import { Container, Row, Col } from "react-bootstrap";
 
 //import Assets
-import MintGif from '../../assets/legif.gif';
+import MintGif from '../../assets/Final Intro Video.mov';
 import YButton from "../basic/YButton";
 
 import { BsFileMinusFill, BsFilePlusFill } from 'react-icons/bs';
@@ -75,17 +75,19 @@ function Mint() {
         // const {mintNum} = this.state;
         if (mintNum <= 0) return;
         setMintNum(mintNum - 1)
-        
+
     }
+
     return (
         <div className='mint-control' id='mint'>
             <Container>
                 <Row>
                     <Col md={6} xs={12} className='mint-image'>
-                        <img src={MintGif} alt='mint gif' />
+
+                        <video id="video" controls autoPlay loop className="video" src={MintGif} alt='mint gif' />
                     </Col>
                     <Col md={6} xs={12} className='mint-description'>
-                        <header style={{fontStyle: "normal"}}>MINT YOUR <text style={{ color: "white" }}>POWER PLANT</text>
+                        <header style={{ fontStyle: "normal" }}>MINT YOUR <text style={{ color: "white" }}>POWER PLANT</text>
                         </header>
                         <text style={{ textAlign: "center", height: 10 }}>
 
@@ -100,13 +102,13 @@ function Mint() {
                             <text style={{fontWeight: "bold"}}>
                                 <a style={{textDecoration: "none", color: "#32CD32", fontWeight: 900, fontSize: 20}}href="https://twitter.com/"> Twitter!</a>
                             </text> */}
-                            </text>
+                        </text>
                         <div className='number-control'>
                             <BsFileMinusFill color='white' size={40} onClick={() => minus_num()} />
-                            <span id="inputBox" style={{color: "white"}}>{mintNum}</span>
+                            <span id="inputBox" style={{ color: "white" }}>{mintNum}</span>
                             <BsFilePlusFill color='white' size={40} onClick={() => plus_num()} />
                         </div>
-                        <p style={{marginTop: 0, marginBottom: 0}}>0.08 ETH + Gas</p>
+                        <p style={{ marginTop: 0, marginBottom: 0 }}>0.1 ETH + Gas</p>
                         {
                             blockchain.account === "" || blockchain.smartContract === null ?
                                 <div className="flex-column">

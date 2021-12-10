@@ -35,7 +35,27 @@
     font-size: 20px;
     font-family: newThing;
 }
-
+.about-description .about-title{
+    color: white;
+    font-style: normal;
+    font-size: 80px;
+    font-weight: 700;
+    font-family: "PoppinsExtraLight";
+    text-align: center;
+    
+}
+.about-description .about-text{
+    font-family: "PoppinsExtraLight";
+    color: #7E7E7F;
+}
+.about-description .about-paragraph{
+    color: white;
+    font-style: normal;
+    font-size: 27px;
+    font-weight: 400;
+    font-family: "PoppinsExtraLight";
+    text-align: center;
+}
 .about-description p span {
     color: #000000;
 }

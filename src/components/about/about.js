@@ -16,14 +16,18 @@ class About extends React.Component {
                             <img style={{ border: "solid black 2px", borderRadius: 0 }} src={AboutGif} alt='about gif' />
                         </Col>
                         <Col md={6} xs={12} className='about-description'>
-                            <header style={{ color: "white", fontStyle: "normal" }}>
-                                Utility<br />
+                            <header className="about-title">
+                                UTILITY<br />
                             </header>
-                            <p style={{ color: "white" }}>
-                                <text style={{ fontSize: 30 }}>Donating 10% from the initial release, 2% from secondary sales.</text> <br /><br />
+                            <p style={{paddingTop:"3em"}}>
+                                <text className="about-paragraph">Planting up to 4
+                                every Power Plants NFT minted.
+                                </text> <br /><br />
 
-                                <text style={{ color: "#7E7E7F" }}>
-                                    We will be making contributions towards DAOs (decentralized autonomous organizations) to benefit renewable energy (such as solar, wind, etc), carbon offsets, and support ETH 2.0 Proof of Stake.
+                                <text className="about-text">
+                                “Power Plants will donate 2 trees for
+                                every NFT that is minted. We will also match all tree donations if all 5,000 NFTs are
+                                minted, bringing the total to 20,000. Proof of donations will be shared.
                                 </text>
                             </p>
 
