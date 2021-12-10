@@ -36,7 +36,7 @@ class Team extends React.Component {
                 {
                     image: "https://github.com/powerplantsnft/website/blob/main/pp4.jpeg?raw=true",
                     title: 'Firm believer that the earth is flat. Avoids cliffs.',
-                    name: "JosEmily, Social Media/Outreach"
+                    name: "Emily, Social Media/Outreach"
                 }, 
                 {
                     image: "https://github.com/powerplantsnft/website/blob/main/pp5.jpeg?raw=true",

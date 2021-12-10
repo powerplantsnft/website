@@ -34,9 +34,9 @@ class State extends React.Component{
         console.log(this.state.data);
         return(
             <div className="state_layout">
-
-                <p className="state_title">Days until Mint</p>
-                <img style={{paddingBottom: 20}}src="https://gen.sendtric.com/countdown/oqbi49z8p8"/>
+                <img style={{marginTop: 50}}src="https://gen.sendtric.com/countdown/oqbi49z8p8"/>
+                <p className="state_title">DAYS UNTIL MINT</p>
+                
                 <div className="state_cards">
                     {
                     this.state.data.map(element=>{

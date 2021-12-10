@@ -87,7 +87,7 @@ function Mint() {
                         <video id="video" controls autoPlay loop className="video" src={MintGif} alt='mint gif' />
                     </Col>
                     <Col md={6} xs={12} className='mint-description'>
-                        <header style={{ fontStyle: "normal" }}>MINT YOUR <text style={{ color: "white" }}>POWER PLANT</text>
+                        <header style={{ fontStyle: "normal", fontFamily: "newThing" }}>MINT YOUR <text style={{ color: "white" }}>POWER PLANT</text>
                         </header>
                         <text style={{ textAlign: "center", height: 10 }}>
 

@@ -12,9 +12,7 @@ class About extends React.Component {
             <div className='about-control' style={{ background: "#141416" }}>
                 <Container style={{ border: "solid #7E7E7F 1px", padding: 20 }}>
                     <Row>
-                        <Col md={6} xs={12} className='image-control'>
-                            <img style={{ border: "solid black 2px", borderRadius: 0 }} src={AboutGif} alt='about gif' />
-                        </Col>
+                        
                         <Col md={6} xs={12} className='about-description'>
                             <header className="about-title">
                                 UTILITY<br />
@@ -32,6 +30,9 @@ class About extends React.Component {
                             </p>
 
                             {/* <div><YButton text='COMING SOON' /></div> */}
+                        </Col>
+                        <Col md={6} xs={12} className='image-control'>
+                            <img style={{ border: "solid black 2px", borderRadius: 0 }} src={AboutGif} alt='about gif' />
                         </Col>
 
                     </Row>
