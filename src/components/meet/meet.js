@@ -57,7 +57,7 @@ class Meet extends React.Component {
                     scrollOnDevice={true}
                 >
                     <div>
-                        <img className="caroImg" src={"https://github.com/powerplantsnft/website/blob/main/12.png?raw=true"} alt='boy1' />
+                        <img className="caroImg" src={"../../assets/a.jpeg"} alt='boy1' />
                     </div>
                     <div>
                         <img className="caroImg" src={"https://github.com/powerplantsnft/website/blob/main/13.png?raw=true"} alt='boy2' />

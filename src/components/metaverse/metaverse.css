@@ -19,11 +19,12 @@
 
 .metaverse_left_bar{
     flex: 6;
-    background-image: url(../../assets/header/metaverse-bg.jpg);
+    background-color: #141416;
+    background-image: url(https://powerplantswebdata.s3.amazonaws.com/Particle_Globe.gif);
     border-right: solid thin rgb(63,67,73);
     background-position: 50%;
     background-repeat: no-repeat;
-    background-size: cover;
+    background-size: 50%;
     text-align: center;
     color: white;
 }
