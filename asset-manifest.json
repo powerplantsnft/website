@@ -1,8 +1,8 @@
 {
   "files": {
     "main.css": "/static/css/main.6f538e57.chunk.css",
-    "main.js": "/static/js/main.1d6fb7ce.chunk.js",
-    "main.js.map": "/static/js/main.1d6fb7ce.chunk.js.map",
+    "main.js": "/static/js/main.45d78075.chunk.js",
+    "main.js.map": "/static/js/main.45d78075.chunk.js.map",
     "runtime-main.js": "/static/js/runtime-main.af3471f7.js",
     "runtime-main.js.map": "/static/js/runtime-main.af3471f7.js.map",
     "static/css/2.d8cb5cde.chunk.css": "/static/css/2.d8cb5cde.chunk.css",
@@ -14,6 +14,7 @@
     "static/css/2.d8cb5cde.chunk.css.map": "/static/css/2.d8cb5cde.chunk.css.map",
     "static/css/main.6f538e57.chunk.css.map": "/static/css/main.6f538e57.chunk.css.map",
     "static/js/2.332a1e39.chunk.js.LICENSE.txt": "/static/js/2.332a1e39.chunk.js.LICENSE.txt",
+    "static/media/12DOA(1).6b4a882b.gif": "/static/media/12DOA(1).6b4a882b.gif",
     "static/media/roadmapitem.css": "/static/media/ArchivoNarrow-VariableFont_wght.1a8c2c65.ttf",
     "static/media/CenterPic.6eabdc78.png": "/static/media/CenterPic.6eabdc78.png",
     "static/media/join-community.css": "/static/media/DickPix.be6bd296.png",
@@ -34,7 +35,6 @@
     "static/media/item1.1c214071.png": "/static/media/item1.1c214071.png",
     "static/media/item2.81e34ae6.png": "/static/media/item2.81e34ae6.png",
     "static/media/item3.eec91da6.png": "/static/media/item3.eec91da6.png",
-    "static/media/legif.e473ad46.gif": "/static/media/legif.e473ad46.gif",
     "static/media/logo.ebf73074.jpg": "/static/media/logo.ebf73074.jpg",
     "static/media/money.e63839ce.JPG": "/static/media/money.e63839ce.JPG",
     "static/media/paintbrush.7501d99d.JPG": "/static/media/paintbrush.7501d99d.JPG",
@@ -46,6 +46,6 @@
     "static/css/2.d8cb5cde.chunk.css",
     "static/js/2.332a1e39.chunk.js",
     "static/css/main.6f538e57.chunk.css",
-    "static/js/main.1d6fb7ce.chunk.js"
+    "static/js/main.45d78075.chunk.js"
   ]
 }

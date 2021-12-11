@@ -1,7 +1,7 @@
 import React from "react";
 import { Container, Row, Col } from "react-bootstrap";
 
-import AboutGif from '../../assets/legif.gif';
+import AboutGif from '../../assets/12DOA(1).gif';
 import YButton from "../basic/YButton";
 
 //import CSS

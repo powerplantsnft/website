@@ -42,10 +42,10 @@ function onWhiteClick() {
     window.location.href="https://whitepaper.powerplantsnft.com/"
 }
 function onGalleryClick(){
-    window.location.href="https://gallery.powerplantsnft.com/"
+    window.location.href="https://powerplantsnft.com/"
 }
 function onShopClick(){
-    window.location.href="https://shop.powerplantsnft.com/";
+    window.location.href="https://powerplantsnft.com/";
 }
 function onWhitelistClick() {
     document.getElementById("whitelist").scrollIntoView();
@@ -112,10 +112,10 @@ class Header extends React.Component {
                                         <a className="social-button" href="http://discord.gg/RNxVea93dN">
                                             <img src="https://static.wixstatic.com/media/9529be_9bd7b35f04334b70aaafeee921e3c67f~mv2.png/v1/fill/w_39,h_39,al_c,q_85,usm_0.66_1.00_0.01/9529be_9bd7b35f04334b70aaafeee921e3c67f~mv2.webp" alt=""/>
                                         </a>
-                                        <a className="social-button" href="http://instagram.com/powerplantsnft">
+                                        <a className="social-button" href="https://twitter.com/PowerPlants_">
                                             <img src="https://static.wixstatic.com/media/9529be_540ad1f79c0e4da587e2095f0226c14c~mv2.png/v1/fill/w_39,h_39,al_c,q_85,usm_0.66_1.00_0.01/9529be_540ad1f79c0e4da587e2095f0226c14c~mv2.webp" alt=""/>
                                         </a>
-                                        <a className="social-button" href="https://twitter.com/PowerPlants_">
+                                        <a className="social-button" href="http://instagram.com/powerplantsnft">
                                             <img src="https://static.wixstatic.com/media/9529be_2bfd2ec19e0045c69c757f9e6d0bc4fe~mv2.png/v1/fill/w_39,h_39,al_c,q_85,usm_0.66_1.00_0.01/9529be_2bfd2ec19e0045c69c757f9e6d0bc4fe~mv2.webp" alt=""/>
                                         </a>
                                     </div>
