@@ -68,7 +68,7 @@ class Header extends React.Component {
                             <Navbar.Brand href="#home" style={{ paddingTop: 10 }}>
                                 <img src={il} width={289} height={115.1} alt='logo' />
                             </Navbar.Brand>
-                            <Navbar.Toggle aria-controls="responsive-navbar-nav" />
+                            <Navbar.Toggle style={{backgroundColor: "#32CD32"}}aria-controls="responsive-navbar-nav" />
                             <Navbar.Collapse id="responsive-navbar-nav">
                                 <Nav className="me-auto">
                                 </Nav>
@@ -106,7 +106,7 @@ class Header extends React.Component {
                                         No watering required.
                                     </p>
                                     <div style={{paddingTop:"2em", display: "flex", textAlign: "center"}}>
-                                        <text className="mint-button" onClick={onMintClick}>MINT</text><p style={{ color: "white", paddingTop: 25, paddingLeft: 10 }}> 0.15 ETH</p>
+                                        <text className="mint-button" onClick={onMintClick}>MINT</text><p style={{ color: "white", paddingTop: 25, paddingLeft: 10 }}> 0.1 ETH</p>
                                     </div>
                                     <div className="social-button-container">
                                         <a className="social-button" href="http://discord.gg/RNxVea93dN">

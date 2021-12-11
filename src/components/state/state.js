@@ -8,7 +8,7 @@ class State extends React.Component{
         this.state={
             data:[
                 {
-                    title:".15 ETH",
+                    title:"0.1 ETH",
                     text:"Price"
                 },
                 {
