@@ -37,12 +37,12 @@ class RoadMap extends React.Component {
                 {
                     tag: 'Phase 5',
                     title: 'After Launch (Q1 2022)',
-                    content: '-$50,000 is pumped into the Power Plants Fund for ongoing developments and marketing campaigns.\n-Rare owners get original art/seeds mailed to them\n-2% of ongoing secondary marketplace sales are donated\n-Raffles on social media platforms'
+                    content: '-$50,000 is pumped into the Power Plants Fund for ongoing developments and marketing campaigns\n-Rare owners get original art/seeds mailed to them\n-2% of ongoing secondary marketplace sales are donated\n-Raffles on social media platforms'
                 },
                 {
                     tag: 'Phase 6',
                     title: 'Metaverse (Q2 2022)',
-                    content: '-Owners will have the ability to stake their NFTs\n-Owners will receive rewards from staking.'
+                    content: '-Owners will have the ability to stake their NFTs\n-Owners will receive rewards from staking'
                 },
                 
             ]

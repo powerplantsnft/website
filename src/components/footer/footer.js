@@ -38,7 +38,7 @@ class Footer extends React.Component {
                     <Row style={{ width: "100%" }}>
                         <Col md="3" className="footer-logo-container" style={{}}>
                             <h3>Power Plants</h3>
-                            <img className="footer-logo" src="https://static.wixstatic.com/media/9529be_bca678e455cb44a5a11c9515cc035393~mv2.png/v1/fill/w_204,h_204,al_c,q_85,usm_0.66_1.00_0.01/DP_edited.webp" alt="" />
+                            <img className="footer-logo" src="https://cdn.discordapp.com/attachments/912832626774114384/919467254670839858/FEF4AA8F-E930-438C-94AB-440FC3906428.png" alt="" />
                         </Col>
                         <Col md="3" style={{ margin: "auto" }} >
                             <div style={{ display: "flex", textAlign: "center", justifyContent: "center", padding: "0em" }}>

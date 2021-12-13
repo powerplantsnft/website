@@ -23,8 +23,8 @@
     align-items: center;
 }
 .footer-logo-container .footer-logo{
-    width: 204px;
-    height: 204px;
+    width: 130px;
+    height: 180px;
     object-fit: cover;
     object-position: 50% 50%;
 }
