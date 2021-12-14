@@ -106,7 +106,7 @@ class Header extends React.Component {
                                         No watering required.
                                     </p>
                                     <div style={{paddingTop:"2em", display: "flex", textAlign: "center"}}>
-                                        <text className="mint-button" onClick={onMintClick}>MINT</text><p style={{ color: "white", paddingTop: 25, paddingLeft: 10 }}> 0.08 ETH</p>
+                                        <text className="mint-button" onClick={onMintClick}>MINT</text><p style={{ color: "white", paddingTop: 25, paddingLeft: 10 }}> 0.03 ETH</p>
                                     </div>
                                     <div className="social-button-container">
                                         <a className="social-button" href="http://discord.gg/RNxVea93dN">
