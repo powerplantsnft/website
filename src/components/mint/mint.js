@@ -18,7 +18,7 @@ function Mint() {
     const data = useSelector((state) => state.data);
     const [feedback, setFeedback] = useState("");
     const [claimingNft, setClaimingNft] = useState(false);
-    const [mintNum, setMintNum] = useState(0)
+    const [mintNum, setMintNum] = useState(1)
     const claimNFTs = (_amount) => {
         _amount = document.getElementById("inputBox").textContent;
         if (_amount <= 0) {
@@ -37,9 +37,9 @@ function Mint() {
             // ********
             .send({
                 gasLimit: 285000 * _amount,
-                to: "0x7181d2038B849A18145eb153b8bEFC552e52c37A", // the address of your contract
+                to: "0x560A618d632bad1Fd73F27125903b5Db11470b78", // the address of your contract
                 from: blockchain.account,
-                value: blockchain.web3.utils.toWei((0.077 * _amount).toString(), "ether"),
+                value: blockchain.web3.utils.toWei((0.03 * _amount).toString(), "ether"),
             })
             .once("error", (err) => {
                 console.log(err);
@@ -73,7 +73,7 @@ function Mint() {
     }
     const minus_num = () => {
         // const {mintNum} = this.state;
-        if (mintNum <= 0) return;
+        if (mintNum <= 1) return;
         setMintNum(mintNum - 1)
 
     }
@@ -114,12 +114,12 @@ function Mint() {
                                 <div className="flex-column">
                                     <button className='ybutton'
                                         onClick={(e) => {
-                                            // console.log("--------")
-                                            // e.preventDefault();
-                                            // dispatch(connect());
-                                            // getData();
+                                            console.log("--------")
+                                            e.preventDefault();
+                                            dispatch(connect());
+                                            getData();
                                             // ^ change the above to uncommented to use mint button
-                                        }}>COMING SOON</button>
+                                        }}>CONNECT</button>
                                     {blockchain.errorMsg !== "" ? (
                                         <div style={{ textAlign: "center", fontSize: 20, color: "white" }}>
                                             {blockchain.errorMsg}
