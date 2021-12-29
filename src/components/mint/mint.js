@@ -114,10 +114,10 @@ function Mint() {
                                 <div className="flex-column">
                                     <button className='ybutton'
                                         onClick={(e) => {
-                                            // console.log("--------")
-                                            // e.preventDefault();
-                                            // dispatch(connect());
-                                            // getData();
+                                            console.log("--------")
+                                            e.preventDefault();
+                                            dispatch(connect());
+                                            getData();
                                             // ^ change the above to uncommented to use mint button
                                         }}>CONNECT</button>
                                     {blockchain.errorMsg !== "" ? (
